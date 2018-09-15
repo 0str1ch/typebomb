@@ -11,7 +11,7 @@ export default () => (
         <div className="heroContent">
           <h1>I defy convention in art and code.</h1>
           <p>
-            I'm a designer, front-end developer, and typographer with a flair for minimalism. I work
+            I'm a designer, front-end fdeveloper, and typographer with a flair for minimalism. I work
             well office dogs and unlimited coffee. ☕️
           </p>
         </div>
