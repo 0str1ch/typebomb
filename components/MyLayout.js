@@ -1,10 +1,8 @@
 const Layout = props => (
-  <div>
     <div className="layoutWrapper">
       <div className="layoutInner">
         <main>{props.children}</main>
       </div>
-    </div>
     <style jsx global>{`
       .layoutWrapper {
         align-items: stretch;
@@ -12,6 +10,7 @@ const Layout = props => (
         flex-direction: column;
         height: 100%;
         position: relative;
+        margin-left: 6vw;
         overflow-scrolling: touch;
       }
       ,

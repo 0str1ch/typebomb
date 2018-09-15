@@ -1,5 +1,7 @@
 import Link from "next/link";
 import JsLogo from "./JsLogo";
+import MessageIcon from "./MessageIcon";
+import SettingsIcon from "./SettingsIcon";
 
 const Header = () => (
   <nav className="navWrapper">
@@ -14,44 +16,51 @@ const Header = () => (
 
       <li>
         <Link prefetch href="/about">
-          <a>About</a>
+          <a>
+            <MessageIcon />
+            <span>Message</span>
+          </a>
         </Link>
       </li>
 
       <li>
         <Link prefetch href="/about">
-          <a>Work</a>
+          <a>
+            <MessageIcon />
+            <span>Message</span>
+          </a>
         </Link>
       </li>
 
       <li>
         <Link prefetch href="/about">
-          <a>Contact</a>
+          <a>
+            <MessageIcon />
+            <span>Message</span>
+          </a>
         </Link>
       </li>
 
       <li>
-        <Link prefetch href="/typing">
-          <a>Blog</a>
+        <Link prefetch href="/about">
+          <a>
+            <SettingsIcon />
+            <span>Settings</span>
+          </a>
         </Link>
       </li>
     </ul>
-    <div className="today" />
-    <style jsx>{`
-      .menuButton {
-        height: 3em;
+    <style jsx global>{`
+      .navIcon {
+        fill: var(--primary);
+        position: relative;
+        height: 1.5rem;
+        width: 100%;
+        transition: fill 100ms ease-in;
       }
 
       .navWrapper {
-        background-color: transparent;
-        width: 100%;
-        position: fixed;
-        display: none;
-        height: 5em;
-        place-items: center center;
-        background: rgba(255, 255, 255, 0.97);
-        box-shadow: 0 1px 0 0 rgba(235, 237, 242, 0.6);
-        z-index: 100;
+        backface-visibility: hidden;
       }
 
       @media screen and (min-width: 60em) {
@@ -60,7 +69,8 @@ const Header = () => (
         }
       }
 
-      .navWrapper:before,
+       {
+        /* .navPanel:before,
       .mobileNav:before {
         content: "";
         position: fixed;
@@ -71,59 +81,99 @@ const Header = () => (
         width: 100%;
         top: 0;
         z-index: 10;
+      } */
       }
 
       .navList {
         display: flex;
-        place-items: center center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        width: 100%;
-        position: absolute;
+        flex-direction: column;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        place-items: center;
+        height: 100vh;
+        width: 6vw;
+        position: fixed;
         top: 0;
+        z-index: 20;
+        background: rgba(255, 255, 255, 0.97);
+        box-shadow: 1px 0px 0 0 rgba(235, 237, 242, 0.6);
       }
 
-      @media screen and (min-width: 48em) {
-        .navList {
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
-        }
-      }
-
-      .navList li {
-        margin-right: 1.5rem;
-      }
-
-      .navList li:last-of-type {
-        margin-right: 0;
-      }
-
-      .navList li a {
+      .navList a {
         color: var(--secondary);
+        z-index: 30;
+        display: block;
+      }
+
+      .navList > li > a:hover,
+      .navList > li > a:focus {
+        opacity: 0.75;
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+      }
+
+      .navList > li:nth-child(1) a:hover {
+        transform: none;
+      }
+
+      .navList > li > a {
+        -webkit-transition: 0.1s;
+        transition: 0.1s;
+      }
+
+      .navList > li {
+        margin-bottom: 1.5rem;
+      }
+
+      .navList > li:nth-child(1) {
+        margin-bottom: 3rem;
+      }
+
+      .navList > li > a:hover > span,
+      .navList > li > a:focus > span {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+
+      .navList > li > a > span {
+        display: block;
+        transform: translateX(-200px);
+        transition: 0.1s;
+        text-align: center;
+      }
+
+      .navList:hover > li:nth-child(2) span,
+      .navList:focus > li:nth-child(2) span {
+        transition-delay: 0.02s;
+      }
+
+      .navList:hover > li:nth-child(3) span,
+      .navList:focus > li:nth-child(3) span {
+        transition-delay: 0.04s;
+      }
+
+      .navList:hover > li:nth-child(4) span,
+      .navList:focus > li:nth-child(4) span {
+        transition-delay: 0.08s;
+      }
+
+      .navList:hover > li:nth-child(5) span,
+      .navList:focus > li:nth-child(5) span {
+        transition-delay: 0.1s;
+      }
+
+      .navList:hover > li > a > span,
+      .navList:focus > li > a > span {
+        transform: translateX(0);
+      }
+
+      .navList > li > a:hover > div > svg,
+      .navList > li > a:focus > div > svg {
+        fill: red;
       }
 
       .navList li:first-of-type a {
         color: var(--primary);
-      }
-
-      .today {
-        display: none;
-        position: absolute;
-        right: 1.5rem;
-        height: 100%;
-        width: 10rem;
-        place-items: center;
-        padding-left: 1.5rem;
-        box-shadow: -1px 0px 0 0 rgba(235, 237, 242, 0.6);
-        color: var(--secondary);
-      }
-
-      @media screen and (min-width: 48em) {
-        .today {
-          display: flex;
-        }
       }
     `}</style>
   </nav>
