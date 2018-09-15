@@ -1,0 +1,31 @@
+{
+  "name": "js-next",
+  "version": "1.0.0",
+  "description": "This is js-next, a portfolio website built with Next.js by Jeremy Smith.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "keywords": [],
+  "author": "Jeremy Smith",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "classnames": "^2.2.6",
+    "next": "^6.1.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-images": "^0.10.6",
+    "next-page-transitions": "^1.0.0-alpha.4",
+    "node-sass": "^4.9.3",
+    "npm": "^6.4.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-typist": "^2.0.4"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2"
+  }
+}

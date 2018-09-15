@@ -1,0 +1,29 @@
+{
+  "os": "linux",
+  "dist": "trusty",
+  "sudo": "required",
+  "cache": {
+    "directories": [
+      "node_modules"
+    ]
+  },
+  "group": "stable",
+  "addons": {
+    "apt": {
+      "sources": [
+        "google-chrome"
+      ],
+      "packages": [
+        "google-chrome-stable"
+      ]
+    }
+  },
+  "script": [
+    "npm run build"
+  ],
+  "install": [
+    "npm install"
+  ],
+  "node_js": "10.5",
+  "language": "node_js"
+}

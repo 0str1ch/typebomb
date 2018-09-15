@@ -1,0 +1,156 @@
+.dblButtons {
+  display: block;
+}
+
+@media screen and (min-width: 36em) {
+  .dblButtons {
+    display: inline-flex;
+  }
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #ccc;
+  background: none;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #2d2d2d;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999;
+}
+
+.token.punctuation {
+  color: #ccc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+  color: #e2777a;
+}
+
+.token.function-name {
+  color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+  color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+  color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+  color: #cc99cd;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: green;
+}
+
+.bullet {
+  margin: 0 2.5rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+  -webkit-transition: -webkit-transform 400ms 300ms cubic-bezier(0.165,0.840,0.440,1.000),opacity 200ms 300ms linear;
+  -webkit-transition: transform 400ms 300ms cubic-bezier(0.165,0.840,0.440,1.000),opacity 200ms 300ms linear;
+  transition: transform 400ms 300ms cubic-bezier(0.165,0.840,0.440,1.000),opacity 200ms 300ms linear;
+}
+
+@keyframes slowFade{
+  0%{
+      background: #000048;
+      }
+  50%{
+      background: #000096;
+      }
+  100%{
+      transform: rotate(xx);
+      background: #000048;
+      }
+}
+
+.colorfade {
+  transform: translate3d();
+  animation: slowFade 10s infinite 0s linear;
+}
