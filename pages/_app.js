@@ -1,7 +1,6 @@
 import App, { Container } from "next/app";
 import React from "react";
 import Header from "../components/Header";
-import MobileNav from "../components/MobileNav";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -19,7 +18,6 @@ export default class MyApp extends App {
     return (
       <Container>
         <Header />
-        <MobileNav/>
 
         <Component {...pageProps} />
 

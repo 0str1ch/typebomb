@@ -140,6 +140,8 @@ const Header = () => (
         transform: translateX(-200px);
         transition: 0.1s;
         text-align: center;
+        font-size: 1vw;
+        margin-top: 2%;
       }
 
       .navList:hover > li:nth-child(2) span,
