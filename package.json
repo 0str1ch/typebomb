@@ -1,7 +1,7 @@
 {
-  "name": "js-next",
+  "name": "typebomb",
   "version": "1.0.0",
-  "description": "This is js-next, a portfolio website built with Next.js by Jeremy Smith.",
+  "description": "A typography and web font resource for designers and developers.",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
