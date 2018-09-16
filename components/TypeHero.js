@@ -10,13 +10,16 @@ const TypeHero = props => (
         background: var(--primary);
       }
 
-      .introContent {
-        text-align: center;
-        display: flex;
-        height: 100%;
-        place-content: center;
-        flex-direction: column;
-      }
+      .introContent{
+    text-align: center;
+    display: flex;
+    height: 100%;
+    width: 36vw;
+    margin: auto;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;
+}
 
       .introContent h1,
       .introContent p {

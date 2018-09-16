@@ -6,6 +6,7 @@ import RobotoRoboto from "../components/pairings/RobotoRoboto";
 import RobotoMonoRoboto from "../components/pairings/RobotoMonoRoboto";
 import FeaturedFont from "../components/FeaturedFont";
 import TypeHero from "../components/TypeHero";
+import UiButton from "../components/Ui-Button";
 
 export default () => (
   <PageLayout>
@@ -15,6 +16,11 @@ export default () => (
         Find font pairings, color schemes, and the CSS you need to design
         beautiful websites and print projects.
       </p>
+      <Link href="/about">
+        <a href="#" className="ui-Button">
+          <UiButton>Learn More</UiButton>
+        </a>
+      </Link>
     </TypeHero>
 
     <FeaturedFont>
