@@ -35,7 +35,7 @@ export default () => (
       <link href="../static/js.ico" rel="shortcut icon" type="image/x-icon" />
 
       <link
-        href="https://fonts.googleapis.com/css?family=Biryani:700|IBM+Plex+Sans:400,700|Lato|Merriweather|Noto+Sans+JP:900|Noto+Serif+JP|Open+Sans|Roboto:400,700|Rubik+Mono+One|Tajawal:700|Work+Sans"
+        href="https://fonts.googleapis.com/css?family=Biryani:700|Roboto+Mono:400,700|IBM+Plex+Sans:400,700|Lato|Merriweather|Noto+Sans+JP:900|Noto+Serif+JP|Open+Sans|Roboto:400,700|Rubik+Mono+One|Tajawal:700|Work+Sans"
         rel="stylesheet"
       />
     <Typography />

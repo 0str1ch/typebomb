@@ -2,6 +2,8 @@ import Link from "next/link";
 import PageLayout from "../components/PageLayout";
 import React from "react";
 import FontPair from "../components/FontPair";
+import RobotoRoboto from "../components/pairings/RobotoRoboto";
+import RobotoMonoRoboto from "../components/pairings/RobotoMonoRoboto";
 
 export default () => (
   <PageLayout>
@@ -14,15 +16,35 @@ export default () => (
         </p>
       </div>
     </section>
-    <FontPair />
-    <FontPair />
-    <FontPair />
-    <FontPair />
-    <FontPair />
-    <FontPair />
-    <FontPair />
-    <FontPair />
-    <FontPair />
-    <FontPair />
+    <FontPair>
+      <RobotoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoMonoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoMonoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoMonoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoMonoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoMonoRoboto />
+    </FontPair>
   </PageLayout>
 );
