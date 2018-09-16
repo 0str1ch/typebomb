@@ -14,7 +14,7 @@ export default () => (
       <h1>Font pairings made easy.</h1>
       <p>
         Find font pairings, color schemes, and the CSS you need to design
-        beautiful websites and print projects.
+        beautiful type.
       </p>
       <Link href="/about">
         <a href="#" className="ui-Button">
