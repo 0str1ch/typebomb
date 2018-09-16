@@ -112,7 +112,9 @@ const Header = () => (
         transform: translateY(3px);
       }
 
-      .navList > li:nth-child(1) a:hover {
+      .navList > li:nth-child(1) a:hover,
+      .navList > li:nth-child(1) a:focus,
+      .navList > li:nth-child(1) a:active {
         transform: none;
       }
 

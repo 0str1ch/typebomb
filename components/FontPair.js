@@ -54,11 +54,10 @@ const FontPair = props => (
 
       .heading {
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.2;
         text-overflow: ellipsis;
         overflow: hidden;
         width: 100%;
-        line-height: 1.1;
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
