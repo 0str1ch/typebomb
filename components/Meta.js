@@ -32,12 +32,12 @@ export default () => (
         property="og:image:secure_url"
         content="https://richpreview.com/richpreview.png"
       />
+      <link href="../static/js.ico" rel="shortcut icon" type="image/x-icon" />
+
       <link
-        href="../static/js.ico"
-        rel="shortcut icon"
-        type="image/x-icon"
+        href="https://fonts.googleapis.com/css?family=Biryani:700|IBM+Plex+Sans:400,700|Lato|Merriweather|Noto+Sans+JP:900|Noto+Serif+JP|Open+Sans|Roboto:400,700|Rubik+Mono+One|Tajawal:700|Work+Sans"
+        rel="stylesheet"
       />
-    </Head>
     <Typography />
 
     <style jsx global>{`
@@ -372,5 +372,6 @@ export default () => (
         color: limegreen;
       }
     `}</style>
+  </Head>
   </div>
 );

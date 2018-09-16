@@ -1,11 +1,28 @@
 import Link from "next/link";
-import Layout from "../components/MyLayout";
+import PageLayout from "../components/PageLayout";
 import React from "react";
-import ProjectTile from "../components/ProjectTile";
-import TerminalWindow from "../components/TerminalWindow";
+import FontPair from "../components/FontPair";
 
 export default () => (
-  <Layout>
-    
-  </Layout>
+  <PageLayout>
+    <section className="intro">
+      <div className="introContent">
+        <h1>Font pairings made easy.</h1>
+        <p>
+          Find font pairings, color schemes, and the CSS you need to design
+          beautiful websites and print projects.
+        </p>
+      </div>
+    </section>
+    <FontPair />
+    <FontPair />
+    <FontPair />
+    <FontPair />
+    <FontPair />
+    <FontPair />
+    <FontPair />
+    <FontPair />
+    <FontPair />
+    <FontPair />
+  </PageLayout>
 );

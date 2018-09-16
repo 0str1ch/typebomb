@@ -1,8 +1,6 @@
-const Layout = props => (
-    <div className="layoutWrapper">
-      <div className="layoutInner">
-        <main>{props.children}</main>
-      </div>
+const PageLayout = props => (
+  <main className="layoutWrapper">
+    <div className="layoutInner">{props.children}</div>
     <style jsx global>{`
       .layoutWrapper {
         align-items: stretch;
@@ -13,17 +11,20 @@ const Layout = props => (
         margin-left: 6vw;
         overflow-scrolling: touch;
       }
-      ,
+
       .layoutInner {
-        flex: 1 1 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 1em;
+        padding: 1em;
       }
 
       section:first-of-type {
-        margin-top: 5em;
-      }
-
-      section {
-        margin-bottom: 1.5rem;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding: 2rem;
+        place-self: center center;
       }
 
       .heroSection {
@@ -105,7 +106,7 @@ const Layout = props => (
         }
       }
     `}</style>
-  </div>
+  </main>
 );
 
-export default Layout;
+export default PageLayout;

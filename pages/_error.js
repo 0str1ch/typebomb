@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/MyLayout";
+import PageLayout from "../components/PageLayout";
 import Link from "next/link";
 
 export default class Error extends React.Component {
@@ -10,7 +10,7 @@ export default class Error extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <PageLayout>
         <section className="errorGrid">
           <div className="errorContainer">
             <div className="errorContent">
@@ -80,7 +80,7 @@ export default class Error extends React.Component {
             }
           `}</style>
         </section>
-      </Layout>
+      </PageLayout>
     );
   }
 }
