@@ -2,7 +2,7 @@ const FeaturedFont = props => (
   <div className="fontPair fontPair--featured">
     <div className="fontPairContent">{props.children}</div>
     <style jsx global>{`
-      .fontPair--featured:first-of-type {
+      .fontPair--featured {
         box-shadow: none;
         background: var(--secondary);
       }

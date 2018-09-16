@@ -7,9 +7,16 @@ import RobotoMonoRoboto from "../components/pairings/RobotoMonoRoboto";
 import FeaturedFont from "../components/FeaturedFont";
 import TypeHero from "../components/TypeHero";
 import UiButton from "../components/Ui-Button";
+import SectionTitle from "../components/SectionTitle";
 
 export default () => (
   <PageLayout>
+    <SectionTitle>
+      <h3>
+        Featured Fonts.
+        <small>Our favorite fonts right now.</small>
+      </h3>
+    </SectionTitle>
     <TypeHero>
       <h1>Font pairings made easy.</h1>
       <p>

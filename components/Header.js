@@ -52,7 +52,7 @@ const Header = () => (
     </ul>
     <style jsx global>{`
       .navIcon {
-        fill: var(--primary);
+        fill: var(--secondary);
         position: relative;
         height: 1.5rem;
         width: 100%;
@@ -107,7 +107,6 @@ const Header = () => (
 
       .navList > li > a:hover,
       .navList > li > a:focus {
-        opacity: 0.75;
         -webkit-transform: translateY(3px);
         transform: translateY(3px);
       }
@@ -173,7 +172,7 @@ const Header = () => (
 
       .navList > li > a:hover > div > svg,
       .navList > li > a:focus > div > svg {
-        fill: red;
+        fill: var(--primary);
       }
 
       .navList li:first-of-type a {
