@@ -36,6 +36,21 @@ const FontPair = props => (
         font-size: var(--text-small);
       }
 
+      .fontInfo a,
+      .fontInfo a:link {
+        color: black;
+        text-decoration: none;
+        background-position-y: -0%;
+        background-image: linear-gradient(transparent 50%,gold 50%);
+        transition: background 500ms ease;
+        background-size: 2px;
+        background-size: auto 175%;
+      }
+
+      .fontInfo a:hover {
+        background-position-y: 100%;
+      }
+
       .fontPair:first-of-type:after {
         content: "Featured Pair";
         text-align: right;
@@ -61,6 +76,10 @@ const FontPair = props => (
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
+      }
+
+      .heading h3 {
+        margin: 0 0 0.5rem;
       }
 
       .body {
