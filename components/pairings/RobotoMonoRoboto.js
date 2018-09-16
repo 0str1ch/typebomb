@@ -9,6 +9,11 @@ const RobotoMonoRoboto = () => (
       .fontPairContent {
         display: flex;
         flex-direction: column;
+        transition-duration: 350ms;
+        -webkit-transition-property: opacity, transform;
+        transition-property: opacity, transform;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
 
       .heading {

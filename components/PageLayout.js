@@ -14,9 +14,9 @@ const PageLayout = props => (
 
       .layoutInner {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
-        grid-gap: 1em;
+        grid-gap: 2em;
         padding: 1em;
       }
 

@@ -5,10 +5,21 @@ const RobotoRoboto = () => (
       Apparently we had reached a great height in the atmosphere, for the sky
       was a dead black, and the stars had ceased to twinkle.
     </span>
+    <small className="headingFont">
+      <span>Heading:</span> Roboto
+    </small>
+    <small className="bodyFont">
+      <span>Body:</span> Roboto
+    </small>
     <style jsx>{`
       .fontPairContent {
         display: flex;
         flex-direction: column;
+        transition-duration: 350ms;
+        -webkit-transition-property: opacity, transform;
+        transition-property: opacity, transform;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
 
       .heading {
@@ -23,6 +34,11 @@ const RobotoRoboto = () => (
         font-size: 1em;
         font-weight: normal;
         margin: 1.5rem 0;
+      }
+
+      .bodyFont span,
+      .headingFont span {
+        font-weight: 700;
       }
     `}</style>
   </div>

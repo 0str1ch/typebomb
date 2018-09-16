@@ -4,7 +4,7 @@ const FontPair = props => (
     <style jsx>{`
       .fontPair {
         padding: 2em;
-        border: 1px solid red;
+        border-top: 1px solid rgba(0,0,0,0.4);
         display: flex;
         flex-direction: column;
       }

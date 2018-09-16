@@ -26,25 +26,31 @@ export default () => (
       <RobotoRoboto />
     </FontPair>
     <FontPair>
-      <RobotoMonoRoboto />
+      <RobotoRoboto />
     </FontPair>
     <FontPair>
       <RobotoRoboto />
     </FontPair>
     <FontPair>
-      <RobotoMonoRoboto />
+      <RobotoRoboto />
     </FontPair>
     <FontPair>
       <RobotoRoboto />
     </FontPair>
     <FontPair>
-      <RobotoMonoRoboto />
+      <RobotoRoboto />
     </FontPair>
     <FontPair>
       <RobotoRoboto />
     </FontPair>
     <FontPair>
-      <RobotoMonoRoboto />
+      <RobotoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoRoboto />
+    </FontPair>
+    <FontPair>
+      <RobotoRoboto />
     </FontPair>
   </PageLayout>
 );
