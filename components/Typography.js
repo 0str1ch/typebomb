@@ -1,7 +1,6 @@
 export default () => (
   <style jsx global>{`
     :root {
-      /* Colors */
       --primary: rgba(46, 62, 72, 1);
       --primary-light: rgba(255, 255, 255, 1);
       --secondary: rgba(46, 62, 72, 0.6);
@@ -9,7 +8,7 @@ export default () => (
       --hint: rgba(46, 62, 72, 0.35);
       --hint-light: rgba(255, 255, 255, 0.35);
       --error: #ff5b0f;
-      /* Font Sizes */
+      --shadow: rgba(235,237,242,0.9);
       --h1-xl: ;
       --h2-large: ;
       --h3-medium: ;

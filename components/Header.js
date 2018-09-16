@@ -96,7 +96,7 @@ const Header = () => (
         top: 0;
         z-index: 20;
         background: rgba(255, 255, 255, 0.97);
-        box-shadow: 1px 0px 0 0 rgba(235, 237, 242, 0.6);
+        box-shadow: 1px 0px 0 0 var(--shadow);
       }
 
       .navList a {

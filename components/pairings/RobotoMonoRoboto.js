@@ -21,6 +21,13 @@ const RobotoMonoRoboto = () => (
         font-size: 2em;
         font-weight: 700;
         line-height: 1.1;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100%;
+        line-height: 1.1;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
       }
 
       .body {
@@ -28,6 +35,13 @@ const RobotoMonoRoboto = () => (
         font-size: 1em;
         font-weight: normal;
         margin: 1.5rem 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100%;
+        line-height: 1.45;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
       }
     `}</style>
   </div>

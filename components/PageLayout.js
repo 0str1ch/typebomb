@@ -17,7 +17,11 @@ const PageLayout = props => (
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-gap: 2em;
-        padding: 1em;
+        padding: 2em;
+      }
+
+      .introContent {
+        text-align: center;
       }
 
       section:first-of-type {
