@@ -20,16 +20,7 @@ const PageLayout = props => (
         padding: 2em;
       }
 
-      .introContent {
-        text-align: center;
-      }
-
-      section:first-of-type {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        padding: 2rem;
-        place-self: center center;
-      }
+      
 
       .heroSection {
         box-shadow: 0 1px 0 0 rgba(235, 237, 242, 0.6);
