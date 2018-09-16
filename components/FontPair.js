@@ -33,6 +33,7 @@ const FontPair = props => (
       .fontInfo span {
         font-weight: 700;
         color: var(--hint);
+        font-size: var(--text-small);
       }
 
       .fontPair:first-of-type:after {
@@ -49,6 +50,30 @@ const FontPair = props => (
         .fontPair {
           padding: 2em;
         }
+      }
+
+      .heading {
+        font-weight: 700;
+        line-height: 1.1;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100%;
+        line-height: 1.1;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+      }
+
+      .body {
+        font-weight: normal;
+        margin: 1.5rem 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100%;
+        line-height: 1.45;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
       }
     `}</style>
   </div>

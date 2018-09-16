@@ -1,13 +1,13 @@
 export default () => (
   <style jsx global>{`
     :root {
-      --h1-xl: ;
-      --h2-large: ;
-      --h3-medium: ;
-      --h4-small: ;
+      --h1-xl: 3.157em;
+      --h2-large: 2.369em ;
+      --h3-medium: 1.777em;
+      --h4-small: 1.333em;
       --text-large: ;
-      --text-normal: ;
-      --text-small: 0.75em;
+      --text-normal: 1em;
+      --text-small: 0.875em;
     }
 
     html {
@@ -23,13 +23,14 @@ export default () => (
     body {
       font-weight: 400;
       line-height: 1.45;
-      color: #333;
+      color: var(--secondary-text);
     }
 
     p {
       margin-bottom: 1.3em;
       line-height: 1.45;
-      color: var(--secondary);
+      color: var(--secondary-text);
+      font-size: var(--text-normal);
     }
 
     h1,
@@ -39,29 +40,32 @@ export default () => (
       margin: 1.414rem 0 0.5rem;
       font-weight: inherit;
       line-height: 1.2;
-      color: var(--primary);
     }
 
     h1 {
       margin-top: 0;
-      font-size: 3.157em;
+      font-size: var(--h1-xl);
+      color: var(--primary-text);
     }
 
     h2 {
-      font-size: 2.369em;
+      font-size: var(--h2-large);
+      color: var(--primary-text);
     }
 
     h3 {
-      font-size: 1.777em;
+      font-size: var(--h3-medium);
+      color: var(--primary-text);
     }
 
     h4 {
-      font-size: 1.333em;
+      font-size: var(--h4-small);
+      color: var(--primary-text);
     }
 
     small,
     .font_small {
-      font-size: 0.75em;
+      font-size: var(--text-small);
     }
 
     * {

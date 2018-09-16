@@ -9,6 +9,9 @@ export default () => (
         --hint-light: rgba(255, 255, 255, 0.35);
         --error: #ff5b0f;
         --shadow: rgba(235,237,242,0.9);
+        --primary-text: rgba(46, 62, 72, 1);
+        --secondary-text: rgba(46, 62, 72, 0.6);
+        --light-text: #fff;
       }
     `}</style>
   );
