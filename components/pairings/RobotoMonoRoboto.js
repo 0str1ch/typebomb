@@ -1,20 +1,15 @@
 const RobotoMonoRoboto = () => (
-  <div className="fontPairContent">
+   <div>
     <span className="heading">The spectacle before us was indeed sublime.</span>
     <span className="body">
       Apparently we had reached a great height in the atmosphere, for the sky
       was a dead black, and the stars had ceased to twinkle.
     </span>
+    <div className="fontInfo">
+      <span>Heading: <a href="http://">Roboto Mono</a></span>
+      <span>Body: <a href="http://">Roboto</a></span>
+    </div>
     <style jsx>{`
-      .fontPairContent {
-        display: flex;
-        flex-direction: column;
-        transition-duration: 350ms;
-        -webkit-transition-property: opacity, transform;
-        transition-property: opacity, transform;
-        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      }
 
       .heading {
         font-family: "Roboto Mono", monospace;
@@ -43,6 +38,8 @@ const RobotoMonoRoboto = () => (
         -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
       }
+
+
     `}</style>
   </div>
 );

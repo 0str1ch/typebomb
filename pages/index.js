@@ -4,6 +4,7 @@ import React from "react";
 import FontPair from "../components/FontPair";
 import RobotoRoboto from "../components/pairings/RobotoRoboto";
 import RobotoMonoRoboto from "../components/pairings/RobotoMonoRoboto";
+import FeaturedFont from "../components/FeaturedFont";
 
 export default () => (
   <PageLayout>
@@ -16,9 +17,9 @@ export default () => (
         </p>
       </div>
     </section>
-    <FontPair>
+    <FeaturedFont>
       <RobotoRoboto />
-    </FontPair>
+    </FeaturedFont>
     <FontPair>
       <RobotoMonoRoboto />
     </FontPair>

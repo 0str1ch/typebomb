@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Typography from "../components/Typography";
+import Colors from "./Colors";
 
 export default () => (
   <div>
     <Head>
       <meta charSet="UTF-8" />
-      <link rel="canonical" href="https://jeremymade.com" />
+      <link rel="canonical" href="https://typebomb.com" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -38,6 +39,7 @@ export default () => (
         href="https://fonts.googleapis.com/css?family=Biryani:700|Roboto+Mono:400,700|IBM+Plex+Sans:400,700|Lato|Merriweather|Noto+Sans+JP:900|Noto+Serif+JP|Open+Sans|Roboto:400,700|Rubik+Mono+One|Tajawal:700|Work+Sans"
         rel="stylesheet"
       />
+      <Colors />
     <Typography />
 
     <style jsx global>{`

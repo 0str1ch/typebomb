@@ -1,7 +1,7 @@
 const FontPair = props => (
   <div className="fontPair">
-    {props.children}
-    <style jsx>{`
+    <div className="fontPairContent">{props.children}</div>
+    <style jsx global>{`
       .fontPair {
         padding: 2em;
         display: flex;
@@ -9,10 +9,30 @@ const FontPair = props => (
         box-shadow: inset 0px 1px 0 0 var(--shadow);
       }
 
+      .fontPairContent {
+        display: flex;
+        flex-direction: column;
+        transition-duration: 350ms;
+        -webkit-transition-property: opacity, transform;
+        transition-property: opacity, transform;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
       .fontPair:first-of-type {
         box-shadow: none;
         background: var(--secondary);
         color: #fff;
+      }
+
+      .fontInfo {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .fontInfo span {
+        font-weight: 700;
+        color: var(--hint);
       }
 
       .fontPair:first-of-type:after {
