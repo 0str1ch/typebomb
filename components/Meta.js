@@ -41,7 +41,7 @@ export default () => (
       />
       <Colors />
     <Typography />
-
+</Head>
     <style jsx global>{`
       body {
         margin: 0;
@@ -374,6 +374,5 @@ export default () => (
         color: limegreen;
       }
     `}</style>
-  </Head>
   </div>
 );

@@ -18,7 +18,7 @@ const Header = () => (
         <Link prefetch href="/about">
           <a>
             <MessageIcon />
-            <span>Message</span>
+            <span>Sans-serif</span>
           </a>
         </Link>
       </li>
@@ -27,7 +27,7 @@ const Header = () => (
         <Link prefetch href="/about">
           <a>
             <MessageIcon />
-            <span>Message</span>
+            <span>Serif</span>
           </a>
         </Link>
       </li>
@@ -36,7 +36,43 @@ const Header = () => (
         <Link prefetch href="/about">
           <a>
             <MessageIcon />
-            <span>Message</span>
+            <span>Monospace</span>
+          </a>
+        </Link>
+      </li>
+
+            <li>
+        <Link prefetch href="/about">
+          <a>
+            <MessageIcon />
+            <span>Slab serif</span>
+          </a>
+        </Link>
+      </li>
+
+            <li>
+        <Link prefetch href="/about">
+          <a>
+            <MessageIcon />
+            <span>Display</span>
+          </a>
+        </Link>
+      </li>
+
+      <li>
+        <Link prefetch href="/about">
+          <a>
+            <SettingsIcon />
+            <span>CSS</span>
+          </a>
+        </Link>
+      </li>
+
+            <li>
+        <Link prefetch href="/about">
+          <a>
+            <SettingsIcon />
+            <span>Blog</span>
           </a>
         </Link>
       </li>

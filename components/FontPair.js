@@ -6,7 +6,7 @@ const FontPair = props => (
         padding: 2em;
         display: flex;
         flex-direction: column;
-        box-shadow: inset 0px 1px 0 0 var(--shadow);
+        box-shadow: 0px 1px 0 0 var(--shadow);
       }
 
       .fontPairContent {
@@ -79,7 +79,7 @@ const FontPair = props => (
       }
 
       .heading h3 {
-        margin: 0 0 0.5rem;
+        margin: 0;
       }
 
       .body {

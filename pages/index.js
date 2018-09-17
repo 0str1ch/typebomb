@@ -11,16 +11,10 @@ import SectionTitle from "../components/SectionTitle";
 
 export default () => (
   <PageLayout>
-    <SectionTitle>
-      <h3>
-        Featured Fonts.
-        <small>Our favorite fonts right now.</small>
-      </h3>
-    </SectionTitle>
     <TypeHero>
       <h1>Font pairings made easy.</h1>
       <p>
-        Find font pairings, color schemes, and the CSS you need to design
+        Find font pairings, color sschemes, and the CSS you need to design
         beautiful type.
       </p>
       <Link href="/about">
@@ -29,10 +23,15 @@ export default () => (
         </a>
       </Link>
     </TypeHero>
-
     <FeaturedFont>
       <RobotoRoboto />
     </FeaturedFont>
+    <SectionTitle>
+      <h3>
+        Sans-serif.
+        <small>Minimalist, modern, and quite popular</small>
+      </h3>
+    </SectionTitle>
     <FontPair>
       <RobotoMonoRoboto />
     </FontPair>
