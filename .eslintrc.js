@@ -6,6 +6,11 @@ module.exports = {
     es6: true,
     commonjs: true
   },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
   plugins: ["react", "jsx-a11y", "import"],
   rules: {
     "max-len": ["error", 100],
