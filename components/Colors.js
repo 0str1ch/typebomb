@@ -1,5 +1,6 @@
 export default () => (
-    <style jsx global>{`
+  <style jsx global>
+    {`
       :root {
         --primary: rgba(46, 62, 72, 1);
         --primary-light: rgba(255, 255, 255, 1);
@@ -13,6 +14,7 @@ export default () => (
         --secondary-text: rgba(46, 62, 72, 0.6);
         --light-text: #fff;
       }
-    `}</style>
-  );
-  
+    `}
+
+  </style>
+)

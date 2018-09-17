@@ -1,7 +1,8 @@
 const PageLayout = props => (
   <main className="layoutWrapper">
     <div className="layoutInner">{props.children}</div>
-    <style jsx global>{`
+    <style jsx global>
+      {`
       .layoutWrapper {
         align-items: stretch;
         display: flex;
@@ -19,8 +20,6 @@ const PageLayout = props => (
         grid-gap: 2em;
         padding: 2em;
       }
-
-      
 
       .heroSection {
         box-shadow: 0 1px 0 0 rgba(235, 237, 242, 0.6);
@@ -100,8 +99,10 @@ const PageLayout = props => (
           width: 100%;
         }
       }
-    `}</style>
-  </main>
-);
+    `}
 
-export default PageLayout;
+    </style>
+  </main>
+)
+
+export default PageLayout

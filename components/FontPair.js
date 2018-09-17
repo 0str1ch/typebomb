@@ -1,7 +1,8 @@
 const FontPair = props => (
   <div className="fontPair">
     <div className="fontPairContent">{props.children}</div>
-    <style jsx global>{`
+    <style jsx global>
+      {`
       .fontPair {
         padding: 2em;
         display: flex;
@@ -93,8 +94,10 @@ const FontPair = props => (
         -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
       }
-    `}</style>
-  </div>
-);
+    `}
 
-export default FontPair;
+    </style>
+  </div>
+)
+
+export default FontPair

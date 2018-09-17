@@ -1,7 +1,7 @@
-import Link from "next/link";
-import JsLogo from "./JsLogo";
-import MessageIcon from "./MessageIcon";
-import SettingsIcon from "./SettingsIcon";
+import Link from 'next/link'
+import JsLogo from './JsLogo'
+import MessageIcon from './MessageIcon'
+import SettingsIcon from './SettingsIcon'
 
 const Header = () => (
   <nav className="navWrapper">
@@ -41,23 +41,23 @@ const Header = () => (
         </Link>
       </li>
 
-            <li>
-        <Link prefetch href="/about">
+      <li>
+              <Link prefetch href="/about">
           <a>
             <MessageIcon />
             <span>Slab serif</span>
           </a>
         </Link>
-      </li>
+            </li>
 
-            <li>
-        <Link prefetch href="/about">
+      <li>
+              <Link prefetch href="/about">
           <a>
             <MessageIcon />
             <span>Display</span>
           </a>
         </Link>
-      </li>
+            </li>
 
       <li>
         <Link prefetch href="/about">
@@ -68,14 +68,14 @@ const Header = () => (
         </Link>
       </li>
 
-            <li>
-        <Link prefetch href="/about">
+      <li>
+              <Link prefetch href="/about">
           <a>
             <SettingsIcon />
             <span>Blog</span>
           </a>
         </Link>
-      </li>
+            </li>
 
       <li>
         <Link prefetch href="/about">
@@ -86,7 +86,8 @@ const Header = () => (
         </Link>
       </li>
     </ul>
-    <style jsx global>{`
+    <style jsx global>
+      {`
       .navIcon {
         fill: var(--secondary);
         position: relative;
@@ -214,8 +215,10 @@ const Header = () => (
       .navList li:first-of-type a {
         color: var(--primary);
       }
-    `}</style>
-  </nav>
-);
+    `}
 
-export default Header;
+    </style>
+  </nav>
+)
+
+export default Header

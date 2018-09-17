@@ -1,6 +1,8 @@
 const UiButton = props => (
   <div>
-    <div className="ui-Button">{props.children}</div>
+    <div className="ui-Button">
+      {props.children}
+    </div>
     <style jsx>
       {`
       .ui-Button {
@@ -28,6 +30,6 @@ const UiButton = props => (
     `}
     </style>
   </div>
-);
+)
 
-export default UiButton;
+export default UiButton

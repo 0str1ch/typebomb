@@ -1,5 +1,6 @@
 export default () => (
-  <style jsx global>{`
+  <style jsx global>
+    {`
     :root {
       --h1-xl: 3.157em;
       --h2-large: 2.369em ;
@@ -216,5 +217,7 @@ export default () => (
     .quote-position + .quote-position {
       margin-top: 0.5em;
     }
-  `}</style>
-);
+  `}
+
+  </style>
+)

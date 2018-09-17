@@ -11,13 +11,22 @@ const RobotoRoboto = () => (
     </span>
     <div className="fontInfo">
       <span>
-        Heading: <a href="http://">Roboto</a>
+        Heading:
+        {' '}
+        <a href="http://">
+        Roboto
+        </a>
       </span>
       <span>
-        Body: <a href="http://">Roboto</a>
+        Body:
+        {' '}
+        <a href="http://">
+        Roboto
+        </a>
       </span>
     </div>
-    <style jsx>{`
+    <style jsx>
+      {`
       .heading {
         font-family: "Roboto", sans-serif;
       }
@@ -25,7 +34,8 @@ const RobotoRoboto = () => (
       .body {
         font-family: "Roboto", sans-serif;
       }
-    `}</style>
+    `}
+    </style>
   </div>
 );
 

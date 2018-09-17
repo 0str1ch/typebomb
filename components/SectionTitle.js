@@ -1,7 +1,8 @@
 const SectionTitle = props => (
   <div className="sectionTitle sectionTitle--sticky">
     {props.children}
-    <style jsx global>{`
+    <style jsx global>
+      {`
       .sectionTitle {
         grid-column-start: 1;
         grid-column-end: 4;
@@ -45,8 +46,10 @@ const SectionTitle = props => (
         transform: translateY(-1px);
         transform-origin: 0 -1px;
       }
-    `}</style>
-  </div>
-);
+    `}
 
-export default SectionTitle;
+    </style>
+  </div>
+)
+
+export default SectionTitle

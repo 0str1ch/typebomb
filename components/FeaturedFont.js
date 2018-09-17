@@ -1,7 +1,8 @@
 const FeaturedFont = props => (
   <div className="fontPair fontPair--featured">
     <div className="fontPairContent">{props.children}</div>
-    <style jsx global>{`
+    <style jsx global>
+      {`
       .fontPair--featured {
         box-shadow: none;
         background: var(--secondary);
@@ -22,8 +23,10 @@ const FeaturedFont = props => (
       .fontPair--featured .fontInfo a {
         color: var(--hint-light);
       }
-    `}</style>
-  </div>
-);
+    `}
 
-export default FeaturedFont;
+    </style>
+  </div>
+)
+
+export default FeaturedFont

@@ -1,5 +1,5 @@
 const RobotoMonoRoboto = () => (
-   <div>
+  <div>
     <span className="heading">
       <h3>The spectacle before us was indeed sublime.</h3>
     </span>
@@ -11,13 +11,22 @@ const RobotoMonoRoboto = () => (
     </span>
     <div className="fontInfo">
       <span>
-        Heading: <a href="http://">Roboto Monospace</a>
+        Heading:
+        {' '}
+        <a href="http://">
+         Roboto Monospace
+        </a>
       </span>
       <span>
-        Body: <a href="http://">Roboto</a>
+        Body:
+        {' '}
+        <a href="http://">
+        Roboto
+        </a>
       </span>
     </div>
-    <style jsx>{`
+    <style jsx>
+      {`
       .heading {
         font-family: "Roboto Mono", monospace;
       }
@@ -25,7 +34,8 @@ const RobotoMonoRoboto = () => (
       .body {
         font-family: "Roboto", sans-serif;
       }
-    `}</style>
+    `}
+    </style>
   </div>
 );
 
