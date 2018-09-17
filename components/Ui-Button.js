@@ -1,8 +1,8 @@
 const UiButton = props => (
-  <div className="ui-Button">
-    {props.children}
-
-    <style jsx>{`
+  <div>
+    <div className="ui-Button">{props.children}</div>
+    <style jsx>
+      {`
       .ui-Button {
         position: relative;
         margin: 0 0.4rem 1rem 0;
@@ -16,16 +16,17 @@ const UiButton = props => (
       }
 
       @media screen and (max-width: 36em) {
-      .ui-Button {
-        width: 100%;
-        display: block;
+        .ui-Button {
+          width: 100%;
+          display: block;
+        }
       }
-    }
 
       .ui-Button a {
-          text-decoration: none;
+        text-decoration: none;
       }
-    `}</style>
+    `}
+    </style>
   </div>
 );
 
