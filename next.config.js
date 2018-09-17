@@ -16,5 +16,11 @@ module.exports = withPlugins([
 
 module.exports = withSass()
 module.exports = {
+  generateBuildId: async () => {
+    // For example get the latest git commit hash here
+    return 'my-build-id'
+  }
+}
+module.exports = {
   distDir: 'build'
 }
