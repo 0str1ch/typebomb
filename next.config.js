@@ -15,3 +15,6 @@ module.exports = withPlugins([
 ]);
 
 module.exports = withSass()
+module.exports = {
+  distDir: 'build'
+}
