@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "Jeremy Smith",
   "license": "ISC",
+  "repository": "0str1ch/typebomb",
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
     "classnames": "^2.2.6",
@@ -23,7 +24,6 @@
     "npm": "^6.4.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-lazyload": "^2.3.0",
     "react-typist": "^2.0.4"
   },
   "devDependencies": {
