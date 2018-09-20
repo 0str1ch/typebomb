@@ -23,12 +23,11 @@
     "next-page-transitions": "^1.0.0-alpha.4",
     "node-sass": "^4.9.3",
     "npm": "^6.4.1",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-typist": "^2.0.4"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
     "next-purgecss": "^1.0.2"
   }
 }
