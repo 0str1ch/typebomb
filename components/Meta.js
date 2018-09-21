@@ -40,8 +40,8 @@ export default () => (
         rel="stylesheet"
       />
       <Colors />
-    <Typography />
-</Head>
+      <Typography />
+    </Head>
     <style jsx global>{`
       body {
         margin: 0;
