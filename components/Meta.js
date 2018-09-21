@@ -10,24 +10,24 @@ export default () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="application-name" content="jsmith" />
-      <meta name="apple-mobile-web-app-title" content="jsmith" />
-      <meta name="theme-color" content="#2a2a2a" />
-      <meta name="msapplication-navbutton-color" content="#2a2a2a" />
+      <meta name="application-name" content="typebomb" />
+      <meta name="apple-mobile-web-app-title" content="typebomb" />
+      <meta name="theme-color" content="#ffffff" />
+      <meta name="msapplication-navbutton-color" content="#000000" />
       <meta
         name="apple-mobile-web-app-status-bar-style"
         content="black-translucent"
       />
       <meta name="msapplication-starturl" content="/" />
-      <title>Jeremy Smith</title>
+      <title>Typebomb</title>
       <meta
         name="description"
-        content="Your friendly neighborhood web designer."
+        content="Find font pairings, color sschemes, and the CSS you need to design beautiful type."
       />
       <meta property="og:title" content="Jeremy Smith" />
       <meta
         property="og:description"
-        content="Your friendly neighborhood web designer."
+        content="Find font pairings, color sschemes, and the CSS you need to design beautiful type."
       />
       <meta
         property="og:image:secure_url"
