@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/0str1ch/typebomb.svg?branch=master)](https://travis-ci.org/0str1ch/typebomb) [![Known Vulnerabilities](https://snyk.io/test/github/0str1ch/typebomb/badge.svg)](https://snyk.io/test/github/0str1ch/typebomb)
 
 ## A typography and web font resource for designers and developers.
-This project is in pre-alpha, and is being actively designed and developed.
+This project is in pre-alpha, and is being actively designed and developed. Nothing is final, and everything is subject to change.
 
 ### How to install
 
