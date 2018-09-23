@@ -1,7 +1,6 @@
 const withPlugins = require('next-compose-plugins')
 const withImages = require('next-images')
 const withSass = require('@zeit/next-sass')
-const withPurgeCss = require('next-purgecss')
 
 module.exports = withPlugins([
   [withImages, {
@@ -14,7 +13,7 @@ module.exports = withPlugins([
 
 ]);
 
-module.exports = withSass(withPurgeCss())
+module.exports = withSass()
 module.exports = {
   distDir: 'build'
 }
