@@ -12,7 +12,9 @@
     "production-start": "npm run build && npm run start",
     "analyze": "BUNDLE_ANALYZE=both next build",
     "lint": "eslint",
-    "eslint-check": "eslint --print-config ."
+    "eslint-check": "eslint --print-config .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -33,7 +35,8 @@
     "next-page-transitions": "^1.0.0-alpha.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-typist": "^2.0.4"
+    "react-typist": "^2.0.4",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@zeit/next-bundle-analyzer": "^0.1.2",
@@ -49,5 +52,6 @@
     "next-purgecss": "^3.0.1",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0"
-  }
+  },
+  "snyk": true
 }
